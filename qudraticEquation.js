@@ -10,5 +10,5 @@ function quadraticEquation(a, b, c) {
   solutionB = (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
   return solutionA + ' ' + solutionB;
 }
-console.log(quadraticEquation(a, b, c))
-console.log(quadraticEquation(1, -2, -16))
+console.log(quadraticEquation(a, b, c));
+console.log(quadraticEquation(1, -2, -16));

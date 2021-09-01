@@ -1,3 +1,4 @@
+'use strict';
 //city variables
 const telAviv = [false, true, true, false];
 const acre = [false, true, false, true];
@@ -13,7 +14,7 @@ function guessCity(capital, coastal, famous, ancient) {
   if (katzrin.every((val, index) => val === guess[index])) return 'Katzrin';
   if (zikim.every((val, index) => val === guess[index])) return 'Zikim';
   if (musmus.every((val, index) => val === guess[index])) return 'Musmus';
-  return 'Not a City Option'
+  return 'Not a City Option';
 }
 
 //below I test every case
